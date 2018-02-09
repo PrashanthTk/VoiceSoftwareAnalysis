@@ -1,0 +1,1 @@
+{"_max_id": null, "_since_id": null, "refresh_url": "?since_id=960310843236794368&q=ai%20responsibility&lang=en&result_type=mixed&include_entities=1", "completed_in": 0.038, "query": "ai+responsibility", "count": 3, "next_results": "?max_id=957352449588826113&q=ai%20responsibility&lang=en&count=3&include_entities=1&result_type=mixed"}

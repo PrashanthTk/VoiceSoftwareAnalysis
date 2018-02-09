@@ -1,0 +1,1 @@
+[{"_max_id": null, "_since_id": null, "refresh_url": "?since_id=959698135495913472&q=EthicalAI%20-rt&lang=en&result_type=recent&include_entities=1", "completed_in": 0.029, "query": "EthicalAI+-rt", "count": 2, "next_results": "?max_id=959278060624162815&q=EthicalAI%20-rt&lang=en&count=2&include_entities=1&result_type=recent"}

@@ -1,0 +1,268 @@
+I want to detect which all audio device connected to Tx2 BOARD, and which of
+them are recording.
+kindly any one can guide how to go about, i tried many thing but didn't
+worked. Below are the details.
+Kindly help ,thanks
+I have done for video device connected like (HDMI input camera & USB camera)
+using APIS.
+But not able to do for audio status or audio capabilities.
+*1st Method *
+2nd Method
+for like Audio:I have tried using VIDIOC_ENUMAUDIO but getting this error.
+: Inappropriate ioctl for devic
+I want to set the outline to the element which has the current focus.
+here i am loading various items on button click and showing on page.after showing newly loaded item.here i want to set focus to the first item which i have just loaded for setting focus i am using below code.
+and it works fine to set focus,here i also want to show the outline to this focused item.is there any easy solution for this?
+When I run my UITests on my iPhone 6s with Network Link Conditioner enabled (very bad network setting and connected to my mac), Xcode takes too much time to start the tests.
+I understand that the interaction within my app will be slower because of the link conditioner, but I don't understand why takes too much time when starting/launching the test, before even get to the splash screen. As far as I know there is no network call at this point.
+Thanks in advance.
+My question is about the error of unknown provider when running karma test. I'm new with Karma, and I spent whole day to fix this bugs, but cannot find a solution. 
+Here is the error when I run test case: 
+I tried to add translate provider into beforeEach function, but it's not worked: 
+Also add module in this file: 
+how to validate default password policy when we adding new user in local user account creation.
+i have validated the username existance with below command
+select count(emp_id) from emp group by jobgrade;
+select count(emp_id) from emp group by location;
+How can Write JPA Criteria Query in One Methods and Set single ResultSet or Resultlist?
+I'm trying to wrap my brain around this plugin. I want to be able to run a countdown on the FlipClock.js and once that countdown hits 0 to proceed counting down to the next deadline. I would like to have 5 countdowns where upon reset, starts counting down the next and so on. I have tried many times to use the reset() method since it is chainable and no luck.
+Essentially I was running the base code and trying to incorporate the reset() method. Any help would be appreciated. Thanks!
+link to JS website: http://flipclockjs.com/
+Im tried to put Ionic-3 select list for an image icon but its not work , anyone know how to do that correctly ?
+this is my code
+My question is what is it to code for UI which is already on server when using Vaadin?
+Also, is there any need or situation to make .html file in the project?
+This is what i found when started learning vaadin framework.
+" As Vaadin is "only" Java code, you can use all of Java’s debugging tools, which cannot be done with other UI frameworks where the UI is written (partly) in HTML and/or JavaScript. "
+Thanks
+I have two interfaces and 1 subclass that implements these two interfaces. I want a subclass of the class which should have features of only one of the interfaces . How to achieve this in java? Is that even possible? 
+No, that's not possible.
+Then it should not be a subclass because it violates to the inheritance paradigm.
+Problem Statement: I want a select option in which I can type to search, to select and to add new if an option not found.
+I found to DataList much related to it, but I am unable to add a custom button for adding a new one, if an option not found in the list.
+I did this:
+Code:
+Output:
+
+I want:
+I actually want something like this:
+  
+So, please guide me through what should I do to achieve the desired output.
+Thanks.
+After some study, I found that SQLite has two kinds of caches: "private page cache" and "shared cache". I try to use them and test the performance, but I really confuse about the usage about these caches. Following is my questions:
+My way to disable / enable private cache / enable shared cache are as following, are these right?
+disable (open by default?):
+ret = sqlite3_open_v2(db_name, db_handle,SQLITE_OPEN_READONLY , NULL);
+enable private cache:
+ret = sqlite3_open_v2(db_name, db_handle,
+            SQLITE_OPEN_READONLY | SQLITE_OPEN_PRIVATECACHE, NULL);
+enable shared cache:
+ret = sqlite3_open_v2(db_name, db_handle,
+        SQLITE_OPEN_READONLY | SQLITE_OPEN_SHAREDCACHE, NULL);
+And I check the sqlite by looking at SQLITE_STATUS_PAGECACHE_USED and SQLITE_DBSTATUS_CACHE_USED now. 
+This is really stuck me. There is always a value for SQLITE_DBSTATUS_CACHE_USED even if I didn't enable the cache. For SQLITE_STATUS_PAGECACHE_USED, no matter I enable or disable the cache, there will not be 0 only when I add following code before I init the sqlite:
+It looks like the sqlite_open_v2 flag is not working without any reason??
+Can you perform loops or iterate (over devices and languages) within the fastlane fastfile or lanes?
+I need to do something before and after each the simulator launches / ends.
+Query 1: Event data from device is stored in Cassandra table. Obviously this is time series data. If we need to store how older dated events (if cached in device due to some issue) at current time, are we going to get performance issue? If yes, what is the solution to avoid that?
+Query 2: Is it good practice to write the event into Cassandra table as soon as the event comes in? Or shall we queue it for sometime to write multiple events in one go if that improves Cassandra write performance significantly?
+I'm trying to play video in videoview from mobile memory, i'm using Navigation view and fragments,when single view in xml then no overlapping but when i make another view and after playing video the videoview comes infront of navigation layout, attached screenshot,  i already used NavigationView.bringToFront(); 
+Here is my xml file
+Please check screenshot for better understand.
+Embedded screenshot of overlapping
+I am using Google Charts to render a Table using its pagination options. How can I customize the styling of the pagination buttons. More specifically, I want to align the buttons to the right, increase their font size, change their color, add a sub-text to the left "Showing x to y of Z entries".
+Refer to this image for the exact requirement.
+My website has a geolocation feature but its not working in android webview app. i want to access geo location by clicking geo location icon. 
+how to set web chrome client in android webview & access geo location
+I am started off with Pyhton Programming and was trying to work on homework activity.
+The answer that I am getting is 197, shouldn't the max value of current health be 100? Have got lot of values more then 100. What am I doing wrong?
+I am using this bootstrap libary for our server side tables and having some problem in firing the injected JS function.
+The library allows you to use the "data-formatter" to inject/format the html and we are using that formatter to edit/delete or other action for rows but our functions are all in AngularJS and seems like the injected HTML is not compiled and the ng-click function in scope is not firing.
+Here is the code below and I created a JSFiddle as well to better demonstrate the issue. I'd prefer the app.directive solution to better re-use in our application, if any exists or other workaround? thanks.
+HTML
+JavaScript/AngularJS
+My form has a View with multiple <TextInput> elements. When user clicks on submit button all fields should become non-editable which is possible with,
+But It can only prevent the user not to edit the field, But doesn't give the appearance of field as it is disabled.
+Hence, Is there any way to give the disable look to all <TextInput> elements at once? 
+I am trying to make userform that can show chart coordinates when i hover mouse over the chart
+Here are some explanations:
+-I have userform named "userform1" that has image named "image1"
+-the same image has height (426),left (6), top(6),width(702)
+-the same userform have 2 label named "label_x" and "label_y"
+-the image will import chart with x value of (0 to 100) and y value of (100 to 200)
+-the code below is to show coordinates of image1 when I hover mouse over
+-here are the demonstration of current code
+the x and y value that shown are wrong
+i have tried to make a manual calibration by asking user to click the top right and bottom left corner of the chart to calibrate the coordinates correctly
+But i dont think it will be comfortable for user to do that
+Is there a way to automatically calibrate chart coordinates? I think it have to do with userform position, image position, and screen resolution, but i do not know how
+Thanks
+As the OAuth is intended to do with third parties ,how is it possible to do in an individual spring boot application using REST API feature? 
+Im trying to Do a Comparison of 2 File Data and print certain out out of it.
+My objective mainly here is to initlize an araay containing some values inside the same awk statement and use it for some printing purpose.
+Below is the Command i am using which i feel looking like some syntactical error.
+Please Help in the AWK part how I should define the Array also How i cna use it inside it.
+Command tried -
+When I try to run my code, i get the error C4700, or Uninitialized local variable 'response' used. I am a total beginner at coding c++ and I don't understand what this means. I've tried adding 
+and it ran, but when I enter yes or no I get the error Unhandled exception at 0x01222C4B in Project2.exe: 0xC0000005: Access violation writing location 0x0122EAB4. I also have no idea what this means.
+Here is the relevant code:
+If you do decide to give a solution, please try to explain it a little bit so I can understand and learn.
+Thanks.
+I have successfully connected two computers through Teamviewer VPN. Let's say Computer A is my PC and Computer B is the remote PC. There is a server that can be accessed locally with Computer B which I want to access from Computer A through Teamviewer VPN. The network address of the server is 10.0.0.0/24. I have tried routing the address with route command, but it failed. Is it actually possible to do this?
+In Rider IDE I am trying to create a new solution:
+
+But unable to change .Net framework but it is disabled. How can I change the version? I have installed .Net framework 3.5, 4.5, 4.6.
+I am trying to make a http post by passing a Map<string,string> as a RequestBody from one of the angular components named charts. Now, this map is being populated inside another sibling component named data based on some input received from the server.
+I had the similar situation wherein i was sharing an Array of strings and was able to do so but I guess something is not correct while doing the same with Map. Here is the code:
+charts.ts:
+data.ts:
+and parent component html is:
+Finally parent-component.ts:
+the console says my chartsMap is undefined.
+How can I achieve this?
+Can I create and run http server in postman for receive async responses with results of long operation witch start in background on server after I requested some end-point? End-point return response instantly.
+Can anybody advise how to remove warnings from FirefoxDriver (capabilities) and 
+ChromeDriver (capabilities)?
+FIREFOX
+    {
+        @Override
+        public DesiredCapabilities getDesiredCapabilities ()
+        {
+            DesiredCapabilities capabilities = DesiredCapabilities.firefox ();
+            return capabilities;
+        }
+ERROR StatusLogger No log4j2 configuration file found. Using default configuration: logging only errors to the console. Set system property 'log4j2.debug' to show Log4j2 internal initialization logging.
+In my flask application I’m attempting to set the search_path in the database session to a schema based on the user that has signed in (multi-tenant scenario). When I query a table in the schema that I’ve set the search path to I get an error that the table does not exist.
+Database Objects:
+Schemas:
+Tables:
+In pgadmin I've tested that I can connect as the common user and after setting my search_path to app_owner1 I can query the app_owner1.table1 table.
+In my flask app I have simplified the functionality by executing the set search_path command directly in the view right before I query the table. It errors out indicating the table doesn’t exist. It appears that the session doesn’t persist between calls.
+I thought maybe it had to do with the ORM call so I tested with a session.query call, but it returned the same error condition.
+I’m using flask_sqlalchemy and creating the db object as follows:
+I’ve been reading through the SQLAlchemy documentation, but can’t figure out whether it’s an issue of the session not persisting between calls, or something completely different
+I made a weather app in create-react-app. How do I hide the API key so that I can commit to GitHub? 
+Right now the key is in App.js:
+const API_KEY = "123456";
+You can create a separate file with all credentials and declaring your keys there. And add this file to .gitignore
+I have moved wp-config.php but my file structure is as given below:
+abcom and applecom folder has  wordpress websites both
+As advised, I have moved wp-config.php outside abccom for security, but now when I need to do the same for applecom, how can I achieve it?
+https://webdesign.tutsplus.com/tutorials/how-to-secure-your-wordpress-wp-configphp--cms-27737
+I am having difficulties using mongoose. I have this small code which makes a connection to mongodb server.
+Unfortunately on running this code, I get connect called in console but the on connect callback called is never called.
+My mongodb console shows that it had got some connections when I run this code
+Please help!
+First of all I would like to debug rhino script application and start searching I found eclipse plugins which have support of it.
+Our Current Environment
+We have J2EE application written in JSF which is deployed on several customers with different version. For extension purpose we are using rhino scripting.
+How we are using
+First we create rhino  script and upload it on our application and application stores it in some where in file system. So rhino script and application are not on same folder or drive. Now it executes in different conditions.
+Now I would like to debug these rhino scripts when our back-end application triggers it. With eclipse plugin whenever I would like to debug application, I get following error
+Exception in thread "main" org.mozilla.javascript.EcmaError: ReferenceError: "Application" is not defined.
+I guess it is because I have not reference jar of our JSF application. Is there any why  to debug these types of application or we have to write our own plugin ?
+I have an Azure Automation Powershell Workflow Runbook, that I wish to run on a Hybrid Runbook Worker server, as part of an Azure Site Recovery failover post-action step. 
+At the high level the runbook utilizes Azure Run AS connection to gather the private IP address of one of the VMs that will be failed over.  Stores this IP address and then will write it to a STATIC A record in the Active Directory DNS that is configured in the environment. 
+>
+  NOTE I promise you there's a good reason we're doing this.  I realize that the machine itself as it comes up on AD will refresh it's personal DNS name entry, this is a separate A record, that we want to point to the IP address of the failed over server.  We aren't using CNAME because of a defined issue with the application this server hosts.  
+So I have to update this A record.  Below you will find the script that does this. This script below works without fail when I run it on the Hybrid Runbook Server while I'm logged into the server with the appropriate credentials (mydomain\asrscripts).
+{
+Every step in the above code progresses successfully until it arrives at the Set-DNSServerResourceRecord statement, and fails with a Permission Denied Error shown below.  This is when I run the job from Azure Automation portal.  When I run it locally on the box logged in as the user it works correctly.
+>
+  I'm thinking I need to use  at the end of my InlineScript block to force the code to execute against the DNS server in the defined user context that I want.  Although what I really want is for the commands to execute ON the hybrid runbook worker in the defined user context.
+about_inlinescript documentation says it accepts 
+https://docs.microsoft.com/en-us/powershell/module/psworkflow/about/about_inlinescript?view=powershell-5.1
+and provides me an example like this
+InlineScript {<script block>} <ActivityCommonParameters>
+Activity Common Parameters are defined by this doc
+https://docs.microsoft.com/en-us/powershell/module/psworkflow/about/about_activitycommonparameters?view=powershell-5.1
+It references two parameters that I wish to use -PSComputerName and -PSCredential
+I build a credential object like this
+$secpasswd = ConvertTo-SecureString "MyAwesomePassword" -AsPlainText -Force
+$mycreds = New-Object System.Management.Automation.PSCredential ("MYDOMAIN\asrscripts", $secpasswd)
+I've even pulled the asset from Automation using 
+$domainCred = Get-AutomationPSCredential -Name 'asrscripts'
+When I run my code and attempt to mimic the example, by adding -PSComputername or -PSCredential to the end of the InlineScript I get errors.
+At line:94 char:7 + -PSComputerName 'MYDNSServer' -PSCredential $domainCred + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Cannot find the '-PSComputerName' command. If this command is defined as a workflow, ensure it is defined before the workflow that calls it. If it is a command intended to run directly within Windows PowerShell (or is not available on this system), place it in an InlineScript: 'InlineScript { -PSComputerName }'
+If I follow the advice of the above error and put the -PSComputerName and -PSCredential INSIDE the InlineScript block I get an error that it cannot find the arguments for Set-DNSServerResourceRecord for -PSComputerName and -PSCredential
+>
+  I don't know what I'm doing wrong
+About Remote Troubleshooting - https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1
+Hopefully someone out there can assist. 
+Thanks!
+I usually store objects in std::vector as value and use std::move to transfer ownership. The problem is that storing by value can cause slicing when used with polymorphic objects.
+This blog: https://oopscenities.net/2012/08/09/reference_wrapper/ which shows that std::vector can be used to store polymorphic object in std::vector. Problem is that since std::reference_wrapper simply stores the reference to the object, the lifetime of the object must be guaranteed for the duration of std::vector>'s life time.
+eg:
+This wouldn't work. Instead of std::reference_wrapper I can use unique_ptr but I was wondering if there is another option.
+I am getting below error:
+Failed to compile.
+My service is:
+And app.module.ts
+Use useClass to add class to provider
+there is an error of jumping to another pages when click next page button in the list page or click the other category button(The wrong pages are pages visited by other online users) magento version is 1.9
+anyone can help. thanks.please see screen shot
+I am doing "Read & Write Data from Excel File in Selenium Webdriver: POI & JXL" 
+package ExcelExportAndFileIO;
+Error coming on console: 
+Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
+at ExcelExportAndFileIO.ReadExcelFile.main(ReadExcelFile.java:73) 
+Please Help. Thank you in advance.
+I want my application to read logs of another application how can I do it.
+if all other application is log enable then an then you are able to fetch the log of other applications
+if this key is enable in manifest than you are able to see the logs of application
+Good Day. 
+I have a server that deploys a batch file to the user from \%HOST%\Netlogon
+Only 3 PC's on my network fails to execute the script,(drafting.bat) and I have written a time delay into the batch file, and it is specified in the AD under the profile. 
+Sample
+This have seem to solve the problem for some of my users, but as mentioned only 3 pc's fails to deploy the script. 
+Sometimes the 3 PC's in question will execute only the entries in the general.bat script. 
+I have then decided to create a vbs file to deploy those 3 Pc's. but it also comes with its own challenges. 
+I need help in 2 ways here. 
+Here is my attempt but it gives me errors 
+Please Assist
+I am getting this error even though i had set teh correct path for gecko driver.
+Error mention below :
+Exception in thread "main" java.lang.IllegalStateException: The driver executable does not exist: C:\Selenium\geckodriver-v0.19.1-win64.exe
+    at com.google.common.base.Preconditions.checkState(Preconditions.java:534)
+    at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
+    at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
+    at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:41)
+    at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:141)
+    at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)
+    at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:158)
+    at org.openqa.selenium.firefox.FirefoxDriver.(FirefoxDriver.java:120)
+    at org.openqa.selenium.firefox.FirefoxDriver.(FirefoxDriver.java:98)
+    at com.package1.Test.main(Test.java:14)
+URLs aren't translating. For ex. & needs to be translated in to %26 in order for url to run properly. I've tried cast, convert and to_code_points but all to no avail. 
+I have installed Docker in Windows platform using Docker Toolbox. Everything is properly set and working absolutely fine in Docker using Docker Quickstart terminal in local. However when trying to integrate Docker with Jenkins using Docker plugin and Docker common plugin facing issues. On doing Test Connection it is stuck as "Testing..." as shared below. 
+Jenkins Docker plugin settings screenshot 
+Troubleshooting Steps tried already,
+Kindly suggest, what exactly causing this issue in Jenkins.  
+my users are from India (all of them) but I see that the latest hardware (Eg. EC2 with 5th generation hardware) is first launched in US regions (NV/Oregon). Right now my application is in oregon but I get latency due to location issue. Any way in which I can use the best of both ? (location + h/w)
+Thanks in advance
+I am new in perl programming.
+I want to modify the column3 of file1 based on column2 of file2.
+Find the file1 difference between column4 and column3 (e.g. 302.48-301.85) called 'diff' and total of column2 and column3 of file2 (e.g. 292.73+1.38) called 'total'. If column4 value of file1 is greater than total of file2 then find the difference between column3 of file1 and total value called diff1. if (diff1 < diff) then modify the column3 value of file1 by column2 value of file2.
+My problem is that file1 is not modified it shows  en_4156 A en_4156_A
+  301.85 302.48   OH YEAH  instead of this  en_4156 A en_4156_A 299.22 302.48   OH YEAH
+can solve this problem.
+Thanks
+File1 content 
+File2 content
+Updated File1
+Code:
+I am creating a CNN to categorise a sentence into one of N possible labels. 
+I am using VocabularyProcessor to convert the words into numbers and then using OneHotEncoder to transform the labels for evaluation. I am currently using the same VocabularyProcessor for converting both X and y
+Where x_text is the loaded sentences and y_text is the correct labels
+This then goes through the training.
+The problem that I am finding is that during evaluation, if the labels are not exactly the same then the indexes do not match the prediction that is coming out.
+Basically what my question is, is how do I match up the output of the evaluation with the text label so that I can use it after training without hard coding the labels up front
+I have a bar chart that shows the number of customers who waited a certain number of minutes. I would like a percentage in each category on hovering over the bar but can't work out how to do that.
+Here is what I have so far.
+At the moment when I hover over the bar I get the value of the bar shown at the top of the bar. The behaviour I would like would be for the value of the bar to be shown with the percentage formatted to 1 decimal point after it in parentheses - e.g. 100 (41.7%) for the first data point.
+I have tried various combinations of hoverinfo and hovermode settings but am having trouble understanding the documentation. Obviously I need an array of the percentages like this [41.66666666666667, 22.916666666666664, 13.750000000000002, 11.666666666666666, 5.0, 4.583333333333333, 0.4166666666666667] but I don't know where to put this or how to format it.
+I am trying to implement an HTTP server inside an iOS app. I could see similar apps in the app store. But in my case, embedded HTTP server has to communicate with external HTTPS Server. So now, 
+is the communication secured? Or do I need to implement HTTPS server, instead? 
+Is it possible to implement an HTTPS server in iOS app? 
+Will Apple reject this approach?
+Thanks in Advance

@@ -1,0 +1,1 @@
+{"_max_id": null, "_since_id": null, "refresh_url": null, "completed_in": 0.073, "query": "self+driving", "count": 4, "next_results": "?max_id=959803950877769728&q=self%20driving&lang=en&count=4&include_entities=1&result_type=popular"}
